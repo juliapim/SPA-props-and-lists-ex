@@ -3,31 +3,61 @@ $mainBg: #1b1b1a;
 .App {
   text-align: center;
 }
+
 * {
   font-family: monospace;
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
 }
-#root{
-.app{
+
+#root {
+  .app {
     background-color: $mainBg;
-    display: flex;
     width: 100vw;
   }
-  .image{
+
+  .image {
     display: flex;
     flex-wrap: wrap;
-    
+    width: 100vw;
     align-items: center;
-    .cards{
-      width: 13%;
+
+    .cards {
+      width: 19%;
       // margin-left: 5.45em;
       padding: 2em;
-      p{
+
+      p {
         color: white;
       }
     }
+  }
+
+  .pickle {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(95, 122, 41);
+  }
+
+  .img-pi {
+    width: 15em;
+  }
+}
+
+.books{
+  background-color: #1b1b1a;
+}
+.cards-book{
+  display: flex;
+  color: white;
+  padding: 2em;
+  .cover{
+    width: 9em;
+  }
+  .button-div{
+    padding: 2em;
   }
 }
