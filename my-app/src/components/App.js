@@ -6,6 +6,7 @@ import pickles from '../pickles/characters.js'
 import  RicksComponent from './RicksComponent.js'
 import books from '../books/books.js'
 import BooksComponent from './BooksComponent'
+
 class App extends React.Component {
   constructor(props) {
 
@@ -18,6 +19,7 @@ class App extends React.Component {
   render() {
 
     return (
+      
       <div className="app">
         <GorillazComponent data={this.state}></GorillazComponent>
         <RicksComponent rick= {this.state2}></RicksComponent>

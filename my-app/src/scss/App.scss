@@ -37,13 +37,40 @@ body {
   }
 
   .pickle {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(95, 122, 41);
+   display: flex;
+   flex-wrap: wrap;
+    background-color: rgb(65, 66, 62);
+    align-items: center;
+    justify-content: center;
+    
+        .cards-pick{
+      display: flex;
+      width: 40vw;
+      margin: 3em;
+      background-color: rgb(115, 133, 123);
+      border-radius: 30px;
+    }
+    section{
+      padding: 2em;
+      width: 50vw;
+    }
+    span{
+      font-size: 2em;
+    }
+    .red{
+      color: rgb(248, 45, 45);
+    }
+    .green{
+      color: rgb(25, 230, 25);
+    }
+    .grey{
+      color: rgb(63, 60, 60);
+    }
   }
 
   .img-pi {
     width: 15em;
+    border-radius: 30px;
   }
 }
 
